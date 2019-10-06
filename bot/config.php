@@ -6,14 +6,13 @@
 	$owner_id = $arr[0];
 	$album_id = $arr[1];
 
-	// 'd7bae75aaf20260cf4cb55983f85eff1a9cf722c3deb43e0b7eb2d4d1a698bafc9016ed74c9cdfff2034a'
-	// group token ed72afb68f5b0df93c22d9eaa10edc6a540eb4ffd979fbde9d9d582495f474ff472ee1fe70e977bfdf9db
+
 	$conf = [
-		'standalone' => 'd7bae75aaf20260cf4cb55983f85eff1a9cf722c3deb43e0b7eb2d4d1a698bafc9016ed74c9cdfff2034a',
-		'group_token' => 'ed72afb68f5b0df93c22d9eaa10edc6a540eb4ffd979fbde9d9d582495f474ff472ee1fe70e977bfdf9db',
+		'standalone' => '********************************************************************************',
+		'group_token' => '********************************************************************************',
 		'contorm_token' => 'a313c247',
-		'mess' => "Фото в студию",
-		'not_command' => 'Ничего не понял!',
+		'mess' => "Let me photo",
+		'not_command' => 'Understood nothing!',
 		'owner_id' => $owner_id,
 		'album_id' => $album_id,
 		'group_id' => '185203024',
